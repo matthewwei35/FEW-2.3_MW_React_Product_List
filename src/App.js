@@ -1,8 +1,10 @@
 import './App.css';
-import data, { allCatergories } from './data';
+import data, { allCatergories, uniqueCategories, categoriesAndCounts } from './data';
 
-console.log(data)
-console.log(allCatergories)
+console.log(data);
+console.log(allCatergories);
+console.log(uniqueCategories);
+console.log(categoriesAndCounts);
 
 function App() {
   return (
