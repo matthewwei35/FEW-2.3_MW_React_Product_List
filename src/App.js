@@ -10,7 +10,9 @@ console.log(catsAndCounts);
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Shopify</h1>
+      <p>Products: {data.length}</p>
+      <p>Category Count: {uniqueCategories.length}</p>
     </div>
   );
 }
