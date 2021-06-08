@@ -1,4 +1,5 @@
 import data from './data';
+import './ProductList.css';
 
 function ProductList() {
   return (
