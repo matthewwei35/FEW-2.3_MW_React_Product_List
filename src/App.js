@@ -1,18 +1,16 @@
 import './App.css';
-import data, { allCatergories, uniqueCategories, categoriesAndCounts, catsAndCounts } from './data';
-
-console.log(data);
-console.log(allCatergories);
-console.log(uniqueCategories);
-console.log(categoriesAndCounts);
-console.log(catsAndCounts);
+import data, { uniqueCategories } from './data';
+import ProductList from './ProductList';
+import CategoryList from './CategoryList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Shopify</h1>
+      <h1>Scuffed Shopify</h1>
       <p>Products: {data.length}</p>
       <p>Category Count: {uniqueCategories.length}</p>
+      <CategoryList />
+      <ProductList />
     </div>
   );
 }
