@@ -1,10 +1,12 @@
 import './ProductList.css';
 import data from './data';
 
-function ProductList() {
+function ProductList(props) {
+  const { category } = props;
+
   return (
     <div className="ProductList">
-      {data.map(obj => {
+      {data.filter(obj => obj.category === category).map(obj => {
         return (
           <div>
             <h2>{obj.name}</h2>

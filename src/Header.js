@@ -1,7 +1,7 @@
 import './Header.css';
 
 function Header(props) {
-  const { title, productCount, categoryCount } = props
+  const { title, productCount, categoryCount } = props;
 
   return (
     <div className="Header">

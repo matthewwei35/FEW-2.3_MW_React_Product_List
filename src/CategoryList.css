@@ -13,3 +13,8 @@
   background-color: #333;
   color: #eee;
 }
+
+button.selected {
+  background-color: #eee;
+  color: #333;
+}
