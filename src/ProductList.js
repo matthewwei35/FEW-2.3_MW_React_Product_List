@@ -1,5 +1,5 @@
-import data from './data';
 import './ProductList.css';
+import data from './data';
 
 function ProductList() {
   return (

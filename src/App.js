@@ -1,7 +1,8 @@
 import './App.css';
 import data, { uniqueCategories } from './data';
-import ProductList from './ProductList';
+import Header from './Header';
 import CategoryList from './CategoryList';
+import ProductList from './ProductList';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
-import { catsAndCounts } from './data';
 import './CategoryList.css';
+import { catsAndCounts } from './data';
 
 function CategoryList() {
   return (
