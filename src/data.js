@@ -24,6 +24,8 @@ const catsAndCounts = uniqueCategories.map(name => {
   return { name, count: categoriesAndCounts[name] }
 });
 
+catsAndCounts.push({name: 'All', count: 100});
+
 export default data;
 export {
   allCatergories,

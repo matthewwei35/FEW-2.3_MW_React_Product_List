@@ -18,3 +18,15 @@ button.selected {
   background-color: #eee;
   color: #333;
 }
+
+button > span {
+  background-color: orange;
+  color: #000;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 6px;
+  height: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 0 0 6px;
+  line-height: 1rem;
+}

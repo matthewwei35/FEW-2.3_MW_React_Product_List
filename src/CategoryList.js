@@ -7,14 +7,15 @@ function CategoryList(props) {
   return (
     <div className="CategoryList">
       {catsAndCounts.map(obj => {
-        const className = obj.name === category ? 'selected' : ''
+        const { name, count } = obj
+        const className = name === category ? 'selected' : '';
         return (
           <button
             className={className}
-            onClick={() => onClick(obj.name)}
+            onClick={() => onClick(name)}
           >
-            {obj.name}
-            <span> {obj.count}</span>
+            {name}
+            <span> {count}</span>
           </button>
         )
       })}

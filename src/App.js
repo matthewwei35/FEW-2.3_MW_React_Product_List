@@ -4,6 +4,7 @@ import data, { uniqueCategories } from './data';
 import Header from './Header';
 import CategoryList from './CategoryList';
 import ProductList from './ProductList';
+import Inventory from './Inventory';
 
 function App() {
   const [ category, setCategory ] = useState('Kids');
@@ -22,6 +23,7 @@ function App() {
       <ProductList
         category={category}
       />
+      <Inventory />
     </div>
   );
 }
