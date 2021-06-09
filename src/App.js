@@ -6,9 +6,11 @@ import CategoryList from './CategoryList';
 function App() {
   return (
     <div className="App">
-      <h1>Scuffed Shopify</h1>
-      <p>Products: {data.length}</p>
-      <p>Category Count: {uniqueCategories.length}</p>
+      <Header
+        title="Scuffed Shopify"
+        productCount={data.length}
+        categoryCount={uniqueCategories.length}
+      />
       <CategoryList />
       <ProductList />
     </div>
